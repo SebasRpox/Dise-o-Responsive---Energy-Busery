@@ -379,202 +379,51 @@
   margin-top: 2%;
 }
 /* MEDIA */
-
-@media(max-width: 1000px){
-  .nosotros-text{
-    top: 60%;
-  }
-  .nosotros-img{
-    text-align: center;
-    top: 0;
-    left: 0;
-    margin: 24% auto;
-    position: relative;
-  }
-  .vacio{
-    top: 60%;
-  }
-  .container{
-    display: block;
-  }
-  .col-left-1{
-    float: left;
-    width: 100%;
-    margin-top: 0px;
-    padding-top: 60px;
-  }
-  .nuestro__tile-1--bienvenido{
-    margin-top: 0px;
-  }
-  .col-right-1{
-    margin-top: 0px;
-    text-align: center;
-    width: 100%;
-  }
-  .container__img-1{
-    width: 100%;
-  }
-  .col-left-1--nuestros{
-    padding-top: 0px;
-    text-align: center;
-    width: 100%;
-  }
-  .col-right-1--nuestros{
-    padding-top: 60px;
-    text-align: center;
-  }
-  .col-left-1--informacion{
-    padding-top: 0px;
-  }
-  .infor{
-    width: 101%;
-    height: 481px;
-  }
-  .infor:hover .content{
-    height: 30%;
-  }
-  .content__title{
-    font-size: 28px;
-  }
-  .price{
-    height: 34px;
-    width: 12px;
-  }
-  .price-left{
-    line-height: 14px;
-  }
-  .price_parrafo{
-    font-size: 22px;
-    margin: 9px 18px;
-  }
-}
 @media(max-width: 750px) and (max-height: 450px){
-  .nosotros-text{
-    top: 235%;
-  }
-  .nosotros-img{
-    max-width: 587px;
-    height: 414px;
-    margin-bottom: 48%;
-  }
-  .vacio{
-    top: 235%;
-  }
-  .infor{
-    width: 101%;
-    height: 381px;
-  }
-}
-@media(max-width: 450px){
-  .header{
-    height: 60px;
-  }
-  .brand{
-    margin-left: 20px;
-  }
-  .brand__h1{
-    font-size: 20px;
-  }
-  .menu__link{
-    font-size: 16px;
-    padding: 10px 7.5px;
-  }
-  .search-wrapper{
-    margin-right: 20px;
-  }
-  .search-wrapper__i{
-    font-size: 15px;
-  }
-  .nosotros-text{
-    left: 3%;
-  }
-  .nosotros__title-1{
-    font-size: 20px;
-  }
-  .nosotros__title-2{
-    font-size: 16px;
-  }
-  .nosotros-img{
-    max-width: 311px;
-    height: 219px;
-  }
-  .col-left-1{
-    height: 510px;
-    padding-top: 30px;
-  }
-  .nuestro__tile-1--bienvenido{
-    margin: 0px 20px 20px 20px;
-  }
-  .nuestro__tile-2--bienvenido{
-    margin: 20px 20px 20px 20px;;
-  }
-  .nosotros__parrafo{
-    font-size: 16px;
-    margin: 20px;
-  }
-  .col-right-1{
-    width: 100%;
-    height: 302px;
-  }
-  .container__img-1{
-    width: 100%;
-    height: 302px;
-  }
-  .col-left-1--nuestros{
-    width: 302px;
-    height: 302px;
-    padding-top: 0px;
-  }
-  .col-right-1--nuestros{
-    height: 510px;
-    padding-top: 30px;
-  }
-  .container--informacion{
-    background-color: crimson;
-  }
-  .col-left-1--informacion{
-    padding-top: 0px;
-    height: auto;
-  }
-  .infor{
-    width: 102%;
-    height: 201px;
-  }
-  .infor:hover .content{
-    height: 40%;
-  }
-  .content__title{
-    margin: 5px 20px;
-    font-size: 20px;
-  }
-  .price{
-    height: 24px;
-    width: 8px;
-  }
-  .price-left{
-    line-height: 10px;
-  }
-  .price_parrafo{
-    font-size: 16px;
-    margin: 7px 13px;
-  }
-  .icons-contact{
-    border-left: 8px solid violet;
-    margin: 0px 20px -17px 20px;
-  }
-  .icons-social{
-    padding: 0;
-  }
-  .icons-social__link{
-    font-size: 18px;
-    height: 28px;
-    width: 28px;
-    margin: 0px 4px;
-  }
-  .footer{
-    padding: 15px;
-  }
-  .container-footer{
-    font-size: 15px;
-  }
+ .header{
+   width: 731px;
+   height: 100px;
+ }
+ .brand__h1{
+   font-size: 20px;
+ }
+ .menu__link{
+   font-size: 12px;
+ }
+ .search-wrapper{
+   width: 120px;
+   margin: 2px;
+ }
+ .nosotros-text img{
+   width: 350px;
+   height: 80px;
+ }
+ .nosotros__title-2{
+   font-size: medium;
+ }
+ .nosotros-img{
+   width: 215px;
+   height: 220px;
+ }
+ .nuestro__tile-1--bienvenido{
+   font-size: 25px;
+ }
+ .nuestro__tile-2--bienvenido{
+   font-size: 20px;
+   margin: -2%;
+   margin-left: 12%;
+ }
+ .nosotros__parrafo{
+   font-size: 12px;
+ }
+ .nosotros__parrafo-list--element{
+   font-size: 22px;
+ }
+ .col-left-1--contact img{
+   width: 290px;
+   height: 80px;
+ }
+ .icons-contact__title{
+   font-size: 11px;
+ }
 }
